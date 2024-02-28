@@ -4,17 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #616161;
-    background-image: url(images/Cafeteria\ background.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
 #welcome p {
     text-align: center;
     font-size: 50px;
