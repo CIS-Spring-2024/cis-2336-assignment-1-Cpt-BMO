@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Last Bite </title>
-    <link rel="stylesheet" href="../CSS Files/another style.css">
+    <link rel="stylesheet" href="../CSS Files/cafemain.css">
     <link rel="stylesheet" href="../CSS Files/header and footer style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <script src="../JavaScript Files/Javascript.js"></script>
 </head>
 
 <body>
@@ -68,10 +69,10 @@
             <div class="text">
                 <h2>Become a Premier Rewards PLUS Member</h2>
                 <p>Sign up today to start earning points on every dollar you spend.</p>
-                <form method="post">
+                <form method="post" action="#">
 
                     <label>Name:</label>
-                    <input type="text" id="name" required>
+                    <input type="text" id="name"  maxlength="25" required>
 
                     <label>Email:</label>
                     <input type="email" id="email" required>
@@ -79,8 +80,8 @@
                     <p id="disclaimer">*Notice: by signing up for our rewards program. You are also subscribing to our newletter</p>
 
                     <div class="button">
-                        <a href="#" onclick="alert('Hi, thank you for signing up!');">Sign Up</a>
-                    </div>
+                        <button type="submit">Sign Up</button>
+                    </div>                                     
                     
                 </form>
             </div>
@@ -103,6 +104,6 @@
         <p>(832) 842-2900</p>
         <a href="https://www.uh.edu/">www.uh.edu</a>
     </footer>
-    
+
 </body>
 </html>
