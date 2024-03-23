@@ -177,6 +177,8 @@ form label{
     #body1, #body2, #body3, #body4{
         width: auto;
         height: auto;
+        margin-left: 20px;
+        margin-right: 20px;
         background: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699));
     }
 }
@@ -191,5 +193,9 @@ form label{
 
     .container .button a{
         font-size: 8px;
+    }
+
+    form{
+        width:100%;
     }
 }
