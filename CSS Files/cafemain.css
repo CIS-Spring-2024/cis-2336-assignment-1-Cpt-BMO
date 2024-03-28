@@ -17,7 +17,7 @@
     color: rgb(153, 0, 0);
 }
 
-#body1 {
+#body1, #body2, #body3, #body4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,21 +59,9 @@
 }
 
 #body2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 25vh;
     margin-top: 45px;
     margin-left: auto;
     margin-right: 20px;
-    width: 1350px;
-    height: 350px;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.452));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 20px;
-    border:1px solid rgba(255, 255, 255, 0.10);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 #body2 img {
@@ -90,20 +78,10 @@
 }
 
 #body3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 25vh;
     margin-top: 45px;
     margin-left: 20px;
     width: 900px;
     height: 400px;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.699));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 20px;
-    border:1px solid rgba(255, 255, 255, 0.10);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 form{
@@ -152,21 +130,11 @@ form label{
 }
 
 #body4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 25vh;
     margin-top: 45px;
     margin-left: auto;
     margin-right: 20px;
     width: 450px;
     height: 150px;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.452));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 20px;
-    border:1px solid rgba(255, 255, 255, 0.10);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 #body4 h2, #body4 p{
